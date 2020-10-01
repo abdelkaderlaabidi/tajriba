@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TP</title>
+    <link rel="stylesheet" href="tp.css">
+    <style>
+  * {
+     box-sizing: border-box;
+    }
+    </style>
+    </head >
+
+    <body>
+
+
+    <section class="site">
+    
+        <header class="header">
+        Initiation à css grid
+        </header>
+    
+        
+        <nav class="sidebar">
+            <h3>liens utiles</h3>
+        <ul>
+
+            <li>cliquez ici :<a href="https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Grid_Layout" target="_blank">DEVELOPER.MOZILLA<br><br><br></a></li>
+
+            <li>cliquez ici :<br><a href="https://htmlcolorcodes.com/fr/" target="_blank">COLOR CODES CSS</a><br><br><br></li>
+
+            <li>cliquez ici :<br><a href="https://www.alsacreations.com/article/lire/1388-css3-grid-layout.html" target="_blank">ALSA-CREATION<br><br><br></a></li>
+
+            <li>cliquez ici :<br><a href="https://www.w3schools.com/css/css_grid.asp" target="_blank">CSS GRID LAYOUT <br><br><br></a></li> 
+
+            <li>cliquez ici :<br><a href="https://la-cascade.io/css-grid-layout-guide-complet/" target="_blank">GUIDE DE GRID<br><br><br></a></li>
+
+            <li>cliquez ici :<br><a href="https://www.grafikart.fr/tutoriels/grid-css-1002" target="_blank">DISPLAY GRID<br><br><br></a></li>
+
+            <li>cliquez ici :<br><a href="https://validator.w3.org/nu/#textarea" target="_blank">VALIDATOR<br><br><br></a></li>
+
+            <li>cliquez ici :<br><a href="https://www.grafikart.fr/tutoriels/grid-css-1002" target="_blank">VIDEO TUTORIEL</a><br><br><br></li>
+
+            <li>cliquez ici :<br><a href="https://www.grafikart.fr/tutoriels/grid-css-1002" target="_blank">GRID GARDEN</a><br><br><br></li>
+
+
+        </ul>
+        </nav>
+        
+
+
+
+
+
+
+
+
+
+        <article class="bodi">
+        <p><b>Introduction</b><br>
+        CSS Grid Layout (aka “Grid”) est un système de layout bi-dimensionnel basé sur les grilles qui a pour ambition ni plus ni moins que de révolutionner la façon dont nous concevons les interfaces utilisateurs basées sur des grilles.
+        CSS a toujours été utilisé pour la mise en page web, mais il n’a jamais été très bon pour cela. Nous avons d’abord utilisé des tables, puis des floats, divers positionnements et inline-block, mais toutes ces méthodes s’apparentaient fondamentalement à des rustines, et ne permettaient pas de résoudre certains problèmes récurrents comme le centrage vertical. Flexbox nous a bien aidés, mais il est conçu pour des layouts plus simples et uni-dimensionnels, et non pour des layouts bi-dimensionnels. En fait, Flexbox et Grid se complètent bien et sont faits pour travailler ensemble. Grid est le premier module CSS créé spécifiquement pour résoudre les problèmes de layout que nous avons contournés par des tripatouillages depuis que nous réalisons des sites web
+        </p>
+      
+
+
+
+
+        <p><b>Les bases et la compatibilité</b><br>
+        Il est facile de se lancer dans Grid. Il suffit de définir un élément container comme une grille, via la propriété display:grid, de régler les dimensions des colonnes et des rangées avec grid-template-columns et grid-template-rows et de placer ses éléments enfants dans la grille avec grid-column et grid-row. Comme pour Flexbox, l’ordre des items de la grille tel qu’il apparaît dans la source n’a pas d’importance. Votre CSS peut les placer dans n’importe quel ordre, ce qui facilite la réorganisation de votre grille avec les media queries. Vous pouvez ainsi définir le layout de votre page et le réorganiser entièrement pour l’adapter à différentes tailles d’écrans, et tout cela avec juste quelques lignes de CSS. Grid est un des modules CSS les plus puissants jamais proposés.</p>
+   
+
+        <p><b>Terminologie importante</b><br>
+        Avant de plonger dans les concepts de Grid, il est important de bien comprendre la terminologie. Dans la mesure où les termes utilisés sont assez similaires, il est facile de les confondre si vous n’avez pas bien mémorisé leur signification telle qu’elle est définie par la spécification. Mais ne vous inquiétez pas, il n’y en a pas beaucoup.</p> 
+
+        <p><b>Container Grid</b><br>
+        C’est l’élément sur lequel s’applique display: grid. C’est donc le parent direct de tous les items grid. Dans cet exemple, container est le container grid.</p> 
+
+        
+
+
+        <p><b> Browser  <br></b>CSS grid can create more asymmetrical layouts than the previous grid and layout options like CSS floats. It also allows for more standardized code that works across browsers. This is in contrast to relying on specific browser hacks or complicated workarounds.[2]
+
+        One issue with exploiting floats in CSS is that if content gets added to one portion of the page it could disrupt the flow of the page and break the layout. This is due to the varying heights for layout elements.[2] Though CSS flex box supports flexible layouts and provides the flexibility of creating complex layouts, it fails when the need for creating responsive layouts in 2-dimensional space arisesAs of October 2017, Chrome, Firefox, Safari and Edge all support CSS grid without vendor prefixes.[3][4][5] IE 10 and 11 support CSS grid but with an outdated specification. On mobile, all modern browsers support CSS grid except for Opera Mini and UC Browser. Web developers targeting older browsers can utilize Modernizr 3.5.0 to detect and gracefully degrade the webpage as needed </p>
+        <p><b> Conclusion<br></b>
+        CSS grid layout or CSS grid is a technique in Cascading Style Sheets that allows web developers to create complex responsive web design layouts more easily and consistently across browsers.[1] There have been other methods for controlling web page layout methods, such l, and CSS flex box. CSS grid is currently not an official standard (it is a W3C Candidate Recommendation) although it has been adopted by most major browsers. </p>
+
+
+
+
+        </article>
+
+        
+        
+
+        <aside class="sidebar2">
+        <ul>
+            <li><b> What is CSS Grid?</b></li>
+            <li><b> What is a grid layout?</b></li>
+            <li><b> CSS Grid Conceptually </b></li>
+            <li><b> CSS Grid Basics </b></li>
+            <li><b> Grid Tracks </b></li>
+        </ul>
+        <p><b> What is CSS Grid?</b><br>
+         For years web developers have been creating grid-like layouts for the web using different techniques which were never mean to solve this use-case like tables, inline-blocks and floats of relative sizes, flexbox, etc . The CSS Grid Layout is a native way to create grid-like layouts for the web in CSS.<br>
+         Using CSS grid you can completely separate the semantics of your document from its visual representation (no more need for loads of wrapper elements to describe rows, columns, etc) and since it is fully defined in CSS it works great with media queries for responsive layouts.
+        </p>
+
+         <p><b>  What is a grid layout?</b><br>
+         At its core, a CSS grid is composed of a container, which is divided in tracks (rows and columns), which are collections of cells delimited by lines and which can be grouped in areas.<br>
+
+        A grid container is the element that represents the grid itself and contains all the grid items as direct children.
+        The grid lines are the lines that delimit each column and row within the grid.<br>
+        The grid tracks are the spaces between two grid lines vertically or horizontally. This is what we commonly refer as columns and rows. You can use the term grid track as a generic way to refer to either columns and rows.<br>
+        A grid item or grid cell is the intersection between a column and a row, or, the space delimited by 4 grid lines.
+        A grid area is an arbitrary grouping of adjacent cells delimited by four grid lines. A grid area can consist on one or more adjacent cells, and will have a rectangular shape.</p> 
+
+        <p><b> CSS Grid Conceptually</b><br>
+         For years web developers have been creating grid-like layouts for the web using different techniques which were never mean to solve this use-case like tables, inline-blocks and floats of relative sizes, flexbox, etc . The CSS Grid Layout is a native way to create grid-like layouts for the web in CSS.<br>
+         Using CSS grid you can completely separate the semantics of your document from its visual representation (no more need for loads of wrapper elements to describe rows, columns, etc) and since it is fully defined in CSS it works great with media queries for responsive layouts<br>
+         Why should you care about all this terminology? Well, when learning and using something it is useful to have a mental model that you can use to reason about a CSS grid and so that you can communicate with others clearly. But, moreover, the CSS grid API is going to take advantage of all these items to let you define your grids.
+        </p>
+
+        <p><b> CSS Grid Basics </b><br>
+         Once this property is setup, all the direct children of the grid element will be treated as grid items. At this point, you won’t see any changes in your layout since by default a grid has a single column of items. We can further detail the layout of the grid by defining how the tracks (columns and rows), and the spacing should look:
+         <br>
+        CSS Grid comes with a new set of css properties for transforming layouts into grid layouts. It all starts with the display: grid property (very reminiscent of flexbox) <br>
+         By default, using vanilla CSS layout rules each of this items is going to be laid out as a block (taking the full width of its parent container) one after the other:
+        </p>
+ 
+
+        <p><b> Grid Tracks</b><br>
+         So tracks can be defined using two properties:<br>
+
+        grid-template-columns to define the column tracks<br>
+        grid-template-rows to define the row tracks<br>
+        These properties although simple at a glance are really powerful as you’ll see in a bit. In their most basic form they allow you to define how many rows and columns a grid has in addition to their sizes as you saw above:<br>
+        But you’re not limited to using pixels, you can use any sizing unit that you’re familiar with. Even better, CSS grid comes with a new unit called fr (fraction unit 1).<br>
+        </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </aside>
+
+        
+
+        <footer class="footer">
+                             <p><b> Service Formation Continue de l’Université de Strasbourg</b></p>
+                                   <p>21 rue du Maréchal Lefebvre 67100 Strasbourg, France </p>
+                                      <p>+33 (0)3 68 85 49 20 // +33 (0)3 68 85 49 29 </p>
+        </footer>
+    
+    </section>
+
+    </body>
+
+</html>
